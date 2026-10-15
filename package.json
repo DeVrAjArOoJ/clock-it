@@ -1,0 +1,17 @@
+{
+  "name": "clock-it",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=clock-it-frontend",
+    "start": "npm run dev --workspace=clock-it-frontend",
+    "build": "npm run build --workspace=clock-it-frontend",
+    "preview": "npm run preview --workspace=clock-it-frontend",
+    "api:dev": "npm run dev --workspace=clock-it-api",
+    "api:start": "npm run start --workspace=clock-it-api"
+  }
+}
